@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+
+body {
+  font-family: "Acme", sans-serif;
+  margin: 0px;
+}
+.max-width {
+  background: #f0f2f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #000c40,
+    #f0f2f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #000c40,
+    #f0f2f0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  max-width: 800px;
+  margin: auto;
+  height: 100vh;
+}
+.main {
+  max-width: 800px;
+  margin: auto;
+  background-image: url(morse.jpg);
+}
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 800px;
+  margin: auto;
+}
+.hero {
+  padding: 1rem;
+}
+
+.hero .hero-heading {
+  text-align: center;
+  padding-top: 1rem;
+  color: var(--black);
+}
+
+.section {
+  padding: 2rem;
+}
+.text-center {
+  text-align: center;
+}
+
+#input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 20vh;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+#btn-translate {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 1rem 2rem;
+  background-color: #60a5fa;
+  color: white;
+  font-size: 1.2rem;
+  outline: none;
+  font-family: "Acme", sans-serif;
+  border-radius: 0.6rem;
+}
+#highlight {
+  color: #e5e7eb;
+}
+#output {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 20vh;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+  background-color: white;
+}
